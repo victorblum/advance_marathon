@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-/* шрифт, таймер, мобильная*/
 
 body {
     font-family: 'Ubuntu', sans-serif;
@@ -13,7 +10,6 @@ body {
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
-    line-height: 28px;
 }
 
 .main__content {
@@ -24,7 +20,7 @@ body {
 
 header {
     margin: auto;
-    max-width: 1147px;
+    max-width: 58%;
 }
 
 .header__content {
@@ -44,15 +40,15 @@ header img {
 
 main {
     margin: auto;
-    max-width: 1147px;
+    max-width: 58%;
 }
 
 .main__description_content {
-    max-width: 644px;
+    max-width: 56%;
 }
 
 .date {
-    font-size: 32px;
+    font-size: 36px;
     line-height: 115%; 
     display: flex;
     align-items: center;
@@ -60,9 +56,9 @@ main {
 }
 
 .main__description_content h2 {
-    font-family: 'Bebas Neue';
+    font-family: 'Bebas Neue Bold';
     font-weight: bold;
-    font-size: 45px;
+    font-size: 68px;
     line-height: 115%;
 }
 
@@ -80,7 +76,7 @@ main {
 .three_points {
     margin-top: 33px;
     margin-bottom: 40px;
-    max-width: 615px;
+    max-width: 99%;
 }
 
 .main__description_content ul {
@@ -106,7 +102,7 @@ main {
 }
 
 .registration_button {
-    width: 557px;
+    width: 90%;
     height: 93px;
     background: linear-gradient(90deg, #5800E8 0%, #7D2DFF 98.44%);
     box-shadow: 0px 0px 26px 3px rgba(53, 53, 53, 0.38);
@@ -124,11 +120,11 @@ main {
 .pages_block {
     display: flex;
     height: 116px;
-    width: 560px;
+    width: 90%;
 }
 
 .pages__photo_block {
-    width: 113px;
+    width: 20%;
     height: 113px;
     border: 1px dashed #FFFFFF;
     border-radius: 15px 0px 0px 15px;
@@ -143,7 +139,7 @@ main {
 }
 
 .pages__describe_block {
-    width: 445px;
+    width: 79.5%;
     height: 113px;
     background: rgba(255, 255, 255, 0.62);
     border-radius: 0px 15px 15px 0px;
@@ -190,8 +186,8 @@ main {
 
 .speaker {
     position: relative;
-    bottom: 100px;
-    left: 1000px;
+    bottom: 260px;
+    left: 800px;
     width: 198px;
     height: 43px;
     font-weight: normal;
@@ -204,25 +200,24 @@ main {
 /* section marathon__program */
 
 .marathon__program_content {
-    margin-top: 227px;
+    margin-top: 150px;
     margin-bottom: 90px;
 }
 
 .marathon_header h3 {
     margin: 0 auto;
     display: block;
-    width: 380px;
-    height: 32px;
-    font-family: Bebas Neue;
+    width: 35%;
+    height: 43px;
+    font-family: 'Bebas Neue Bold';
     font-weight: bold;
-    font-size: 28px;
+    font-size: 44px;
     line-height: 115%;
     letter-spacing: 0.025em;
     color: #000000;
     background-color: #FDE509;
-    padding-left: 5px;
-    padding-right: 5px;
     margin-bottom: 38px;
+    text-align: center;
 }
 
 .marathon_days {
@@ -247,17 +242,17 @@ main {
 }
 
 .marathon__program_day {
-    max-width: 362px;
+    max-width: 32%;
     max-height: 562px;
     border: 2px solid #FD6108;
     box-sizing: border-box;
     border-radius: 25px;
-    padding-left: 34px;
-    padding-right: 54px;
+    padding-left: 30px;
+    padding-right: 50px;
 }
 
 .marathon__program_day h3 {
-    font-family: Bebas Neue;
+    font-family: 'Bebas Neue Bold';
     font-weight: bold;
     font-size: 28px;
     line-height: 115%;
@@ -288,18 +283,18 @@ main {
 }
 
 .registration__form_description {
-    width: 540px;
+    width: 26%;
 }
 
 .registration_header h3 {
     margin: 0;
-    font-family: Bebas Neue;
+    font-family: 'Bebas Neue Bold';
     font-weight: bold;
-    font-size: 28px;
+    font-size: 40px;
     line-height: 115%;
     color: #000000;
     display: block;
-    width: 288px;
+    width: 46%;
     height: 32px;
     background-color: #FDE509;
     padding-left: 5px;
@@ -308,12 +303,13 @@ main {
 
 .registration_header p {
     margin: 0;
-    font-family: Bebas Neue;
+    font-family: 'Bebas Neue Bold';
     font-weight: bold;
-    font-size: 28px;
+    font-size: 32px;
     line-height: 115%;
     color: #000000;
     margin-bottom: 22px;
+    margin-top: 5px;
 }
 
 .registration_date, .registration_online {
@@ -327,7 +323,7 @@ main {
 }
 
 .timer {
-    font-family: Bebas Neue;
+    font-family: 'Bebas Neue Bold';
     font-weight: bold;
     font-size: 20px;
     line-height: 115%;
@@ -338,7 +334,7 @@ main {
 }
 
 .registration__form_input {
-    width: 600px;
+    width: 32%;
     height: 523px;
     background: #FE810F;
     border-radius: 25px;
@@ -347,12 +343,12 @@ main {
 }
 
 .registration__form_fields {
-    margin-left: 127px;
+    margin-left: 21%;
     margin-top: 127px;
 }
 
 .decor__input {
-    width: 338px;
+    width: 69%;
     height: 70px;
     background: rgba(255, 255, 255, 0.87);
     border-radius: 8px;
@@ -367,7 +363,7 @@ main {
 }
 
 .booking_button {
-    width: 335px;
+    width: 54%;
     height: 75px;
     background: linear-gradient(90deg, #5800E8 0%, #7D2DFF 98.44%);
     border-radius: 60px;
@@ -390,556 +386,141 @@ main {
     color: #545454;
 }
 
-/* @media tablet */
-
-@media screen and (min-width: 992px) and (max-width: 1279px) {
-
-/* section howtowatch */
-
-.coursepoints {
-    max-width: 37%;
-    margin-top: 56px;
-    font-size: 0.75rem;
-}
-
-.header1_photo {
-    margin-top: 8px;
-}
-
-.header1_photo div {
-    font-size: 0.75rem;
-}
-
-h1 {
-    font-size: 2.87rem;
-}
-
-.quote {
-    font-size: 0.87rem;
-    height: 116px;
-    border-radius: 2.9px;
-    margin-top: 39px;
-    margin-bottom: 100px;
-    max-width: 33.5%;
-}
-
-.quote p:last-child {
-    font-size: 0.75rem;
-}
-
-/* section aboutcourse */
-
-.course_descrip_photo {
-    font-size: 0.87rem;
-    max-width: 90%;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
-.photo_lessons_comments {
-    margin-top: 30px;
-    margin-bottom: 94px;
-}
-
-.main_descrip {
-    max-width: 50%;
-}
-
-.comments_list {
-    font-size: 0.68rem;
-}
-
-.comments_list div {
-    max-width: 23%;
-}
-
-.photo_comments {
-    width: 20%;
-}
-
-.commentheader {
-    font-size: 0.93rem;
-}
-
-/* section lessonsform */
-
-.lessons_form_descrip {
-    margin-top: 51px;
-    margin-bottom: 103px;
-    font-size: 0.68rem;
-}
-
-.formheader {
-    font-size: 0.93rem;
-}
-
-.lessons_form_descrip div {
-    max-height: 45px;
-}
-  
-h2{
-    font-size: 2rem;
-}
-
-#knowledge ul{
-    font-size: 0.87rem;
-    margin-bottom: 130px;
-    width: 38.65%;
-}
-
-.rects{
-    margin-top: 76.7px;
-    margin-bottom: 52.6px;
-} 
-
-.item{
-    width: 74.21%;
-    margin-bottom: 23.75px;
-}
-
-.item:last-child{
-    width: 48.75%;
-}
-
-.square{
-    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
-    border-radius: 17.375px;
-    width: 31.39%;
-}
-
-.item:last-child .square{
-    width: 47.79%;
-}
-
-.square h3{
-    margin: 6.37px 0 18.53px 11.58px;
-    font-size: 1.06rem;
-}
-    
-.square p{
-    margin: 0 0 13.32px 11px;
-    font-size: 0.87rem;
-}
-    
-.item:last-child .square:last-child h3{
-    margin: 9.27px 0 1px 11.58px;
-    line-height: 97%;
-}
-
-/* section recall */
-
-.recall_content {
-    height: 451.75px;
-}
-
-.elements_rec h2 {
-    padding-top: 53px;
-    padding-bottom: 40.26px;
-}
-
-.recall_info {
-    max-width: 46.18%;
-    max-height: 57.82%;
-    box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
-    border-radius: 17.375px;
-}
-
-.recall_info div:first-child {
-    padding: 5% 6% 0 6%;
-    font-size: 0.75rem;
-}
-
-.avatar {
-    font-size: 1.06rem;
-    max-width: 72.4%;
-}
-
-.avatar div:first-child {
-    width: 24.24%;
-    margin-bottom: 16.8px;
-    padding-left: 5%;
-}
-
-.avatar div p {
-    margin-top: 1.91%;
-    margin-bottom: 6.51%;
-}
-
-/* section shedule */
-
-.shedule_content {
-    height: 451.5px;
-}
-
-.elements_sched h2{
-    padding-top: 103.67px;
-    padding-bottom: 31.27px;
-}
-
-.name {
-    font-size: 0.87rem;
-}
-
-.price {
-    font-size: 2.87rem;
-}
-
-.shedule_description {
-    max-width: 45.69%;
-}
-
-.shedule_description div {
-    font-size: 0.62rem;
-}
-
-/* section footer */
-
-.footer_content {
-    height: 225.88px;
-}
-
-.logo-sinchro {
-    width: 50%;
-}
-
-.ad_screen_contacts {
-    padding-top: 29px;
-}
-
-.contacts {
-    margin-top: 31px;
-}
-
-.number ul li {
-    font-size: 0.87rem;
-}
-
-.mail ul li {
-    font-size: 0.87rem;
-}
-
-.mail ul li:first-child {
-    min-width: 10%;
-}
-
-.messengers {
-    margin-top: 17px;
-    max-width: 85%;
-}
-
-.messengers div {
-    width: 17%;
-}
-
-.signature {
-    font-size: 0.62rem;
-    margin-top: 74px;
-}
-}
-
 /* @media mobile */
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 425px) {
 
-/* section howtowatch */
-    
-header img {
-    min-width: 52px;
+body {
+    background: url("./photo/bg\ el.png") no-repeat;
 }
 
-.coursepoints {
-    max-width: 35%;
-    min-width: 237px;
-    margin-top: 47px;
-    font-size: 0.62rem;
-}
-
-.coursepoints div {
-    min-width: 75px;
-}
-
-.coursepoints div:nth-child(2) {
-    min-width: 59px;
-}
-
-.header1_photo {
-    margin-top: 8px;
-    flex-direction: column;
-}
-
-.header1_photo div {
-    font-size: 0.62rem;
-    max-width: 100%;
-}
-
-.header1_photo div:last-child {
-    min-width: 141px;
-    margin: auto;
-}
-
-h1 {
-    font-size: 2.3rem;
-}
-
-.quote {
-    font-size: 0.68rem;
-    height: 93px;
-    border-radius: 2.3px;
-    margin-top: 39px;
-    margin-bottom: 75px;
-    margin-left: 0;
-    min-width: 225px;
-}
-
-.quote p:last-child {
-    font-size: 0.62rem;
-}
-
-/* section aboutcourse */
-
-.course_descrip_photo {
-    font-size: 0.75rem;
-    flex-wrap: wrap;
-}
-
-h2 {
-    font-size: 1.62rem;
-}
-
-.photo_lessons_comments {
-    margin-top: 30px;
-    margin-bottom: 76px;
-}
-
-.comments_list {
-    font-size: 0.62rem;
-    margin-left: 0;
-    max-width: 206px;
-    flex-wrap: wrap;
-}
-
-.comments_list div {
-    max-width: 40%;
-}
-
-.photo_comments {
+.contact_tel {
     display: none;
 }
 
-.course_descrip_photo {
-    flex-direction: column;
-    align-items: flex-start;
+.main__content {
+    max-width: 80%;
 }
 
-.main_descrip {
-    min-width: 280px;
+header {
+    max-width: 80%;
 }
 
-.course_descrip_photo div:last-child {
-    min-width: 170px;
-    margin: auto;
+.header__content {
+    margin-top: 69px; 
+    margin-bottom: 29px;
 }
 
-.commentheader {
-    font-size: 0.75rem;
-}
-
-/* section lessonsform */
-
-.lessons_form_descrip {
-    margin-top: 17px;
-    margin-bottom: 73px;
-    font-size: 0.62rem;
-    flex-direction: column;
-}
-
-.formheader {
-    font-size: 0.75rem;
-}
-
-.lessons_form_descrip div {
-    max-height: 50px;
-    margin-bottom: 30px;
-    max-width: 180px;
-}
-
-#knowledge h2, #programcourse h2{
-    font-size: 1.6rem;
-}
-
-#knowledge ul{
-    font-size: 0.75rem;
-    margin-bottom: 70px;
-    min-width: 280px;
-}
-
-.rects{
-    margin-top: 52px;
-    margin-bottom: 47.16x;
-} 
-
-.item{
-    width: 185.92px;
-    flex-direction: column;
-    margin: auto;
-    margin-bottom: 0;
-}
-
-.item:last-child{
-    width: 185.92px;
-}
-
-.square{
-    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
-    border-radius: 13.9792px;
-    width: 100%;
-    margin-bottom: 24.16px;
-}
-
-.item:last-child .square{
-    width: 100%;
-}
-
-.square h3{
-    margin: 5.13px 0 14.91px 9.32px;
-    font-size: 0.87rem;
-}
-    
-.square p{
-    margin: 0 0 8.85px 10.72px;
-    font-size: 0.75rem;
-}
-    
-.item:last-child .square:last-child h3{
-    margin: 9.27px 0 1px 11.58px;
-    line-height: 97%;
-}
-
-/* section recall */
-
-.recall_content {
-    height: 423px;
-    width: auto;
-}
-
-.elements_rec h2 {
-    padding-top: 42px;
-    padding-bottom: 28px;
-}
-
-.recall_info {
-    max-width: 82.13%;
-    max-height: 58.63%;
-    box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
-    border-radius: 13.9792px;
-}
-
-.recall_info div:first-child {
-    padding: 5% 6% 0 6%;
-    font-size: 0.62rem;
-}
-
-.avatar {
-    font-size: 0.87rem;
-    max-width: 83.77%;
-}
-
-.avatar div:first-child {
-    width: 31.01%;
-    margin-bottom: 13px;
-    padding-left: 5%;
-}
-
-.avatar div p {
-    margin-top: 1.91%;
-    margin-bottom: 6.51%;
-}
-
-/* section shedule */
-
-.shedule_content {
-    height: 363px;
-    width: auto;
-}
-
-.elements_sched h2{
-    padding-top: 62px;
-    padding-bottom: 22.33px;
-}
-
-.name {
-    font-size: 0.75rem;
-}
-
-.price {
-    font-size: 2.31rem;
-}
-
-.shedule_description {
-    max-width: 82.4%;
-}
-
-.shedule_description div {
-    font-size: 0.62rem;
-}
-
-/* section footer */
-
-.footer_content {
-    height: 251px;
-}
-
-.logo-sinchro {
-    width: 53px;
-}
-
-.ad_screen_contacts {
-    padding-top: 23px;
-    min-width: 16.9%;
-}
-
-.elements_foot {
-    flex-direction: column;
-}
-
-.contacts {
-    margin-top: 47px;
-    min-width: 148px;
-}
-
-.number ul li {
-    font-size: 0.75rem;
-}
-
-.number ul li:first-child {
-    height: 13px;
-    width: auto;
-}
-
-.mail ul li {
-    font-size: 0.75rem;
-}
-
-.mail ul li:first-child {
-    width: 13px;
+header img {
     height: auto;
 }
 
-.messengers {
-    margin-top: 14px;
-    width: 92px;
+/* section main__description */
+
+main {
+    max-width: 100%;
 }
 
-.messengers div {
-    width: 16px;
+.main__description_content {
+    max-width: 100%;
 }
 
-.signature {
-    font-size: 0.62rem;
-    margin-top: 35px;
+.date {
+    font-size: 40px;
+}
+
+.main__description_content h2 {
+    font-size: 44px;
+}
+
+.main__description_content ul {
+    padding: 0;
+}
+
+.registration_button {
+    width: 401px;
+}
+
+.pages_block {
+    width: 405px;
+}
+
+.pages__photo_block {
+    width: 113px;
+}
+
+.pages__photo_block img {
+    width: 87px;
+    height: auto;
+}
+
+.speaker {
+    display: none;
+}
+
+/* section marathon__program */
+
+.marathon__program_content {
+    margin-top: 173px;
+    margin-bottom: 50px;
+}
+
+.marathon_header h3 {
+    width: 380px;
+    height: 32px;
+}
+
+.marathon_days {
+    display: block;
+}
+
+.marathon__program_day {
+    max-width: 362px;
+    max-height: auto;
+    margin-bottom: 20px;
+}
+
+/* section registration__form */
+
+.page_footer {
+    background: url("./photo/bg-footer.png") no-repeat;
+}
+
+.registration__form_content {
+    display: block;
+}
+
+.registration__form_description {
+    width: 379px;
+}
+
+.registration__form_input {
+    width: 390px;
+    height: 348px;
+}
+
+.registration__form_fields {
+    padding-top: 30px;
+    margin-left: 30px;
+}
+
+.decor__input {
+    width: 300px;
+    height: 62px;
+}
+
+.booking_button {
+    width: 320px;
+    height: 75px;
 }
 }
 
-
+@font-face {
+    font-family: 'Bebas Neue Bold';
+    src: url('BebasNeueBold.eot');
+    src: url('BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+    url('BebasNeueBold.woff') format('woff'),
+    url('BebasNeueBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    };
