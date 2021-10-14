@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-body{
+/* шрифт, таймер, мобильная*/
+
+body {
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
     background: url("./photo/bg\ el.png") no-repeat;
@@ -116,6 +118,7 @@ main {
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 32px;
+    cursor: pointer;
 }
 
 .pages_block {
@@ -198,522 +201,193 @@ main {
     color: #FFFFFF;
 }
 
+/* section marathon__program */
 
-
-
-
-
-
-
-
-
-.coursepoints {
-    max-width: 45%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 96px;
-    font-size: 1.25rem;
+.marathon__program_content {
+    margin-top: 227px;
+    margin-bottom: 90px;
 }
 
-.coursepoints div img {
-    max-height: 30%;
-    width: auto;
-    margin-right: 4%;
-} 
-
-.coursepoints div {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 29%;
-}
-
-.coursepoints div:nth-child(2) {
-    width: 22%;
-}
-
-.header1_photo {
-    margin-top: 29px;
-    max-width: 88%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.header1_photo div {
-    max-width: 59%;
-    font-size: 1.25rem;
-    line-height: 150%;
-    font-weight: 400;
-}
-
-.header1_photo div:last-child {
-    width: 28.3%;
-}
-
-.header1_photo div img {
-    max-width: 100%;
-    height: auto;
-}
-
-h1 {
-    font-family: 'Roboto Slab';
-    font-size: 5rem;
-    font-weight: 700;
-    margin: 0;
-    line-height: 100%;
-}
-
-.header1_photo p {
-    max-width: 72%;
-}
-
-.quote {
-    font-family: 'Roboto Slab';
-    font-weight: 400;
-    background-color: #1E4681;
-    color: #FFFFFF;
-    font-size: 1.5rem;
-    max-width: 41%;
-    height: auto;
-    border-radius: 5px;
-    margin-top: 68px;
-    margin-left: 22.5%;
-    margin-bottom: 173px;
-}
-
-.quote p {
-    margin: 0;
-}
-
-.quote p:first-child {
-    padding: 5% 3% 2% 5%; 
-    text-align: left;
-    line-height: 130%;
-}
-
-.quote p:last-child {
-    font-family: 'Roboto';
-    font-size: 1.2rem;
-    font-weight: 400;
-    text-align: right;
-    padding-right: 4%;
-    padding-bottom: 4%;
-}
-
-/* section aboutcourse */
-
-.aboutcourse_content {
-    margin-left: 37px;
-}
-
-.course_descrip_photo {
-    font-family: 'Roboto';
-    font-size: 1.5rem;
-    font-weight: 400;
-    max-width: 95%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    line-height: 150%;
-}
-
-.course_descrip_photo div:last-child {
-    width: 31%;
-}
-
-.course_descrip_photo div img {
-    max-width: 100%;
-    height: auto;
-}
-
-h2 {
-    font-family: 'Roboto Slab';
-    font-size: 3.4rem;
-    font-weight: 700;
-    line-height: 101.38%;
-}
-
-.main_descrip {
-    max-width: 58%;
-}
-
-.main_descrip p {
-    margin-top: 0;
-}
-
-.photo_lessons_comments {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    max-width: 81%;
-    margin-top: 70px;
-    margin-bottom: 162px;
-}
-
-.comments_list {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    font-size: 1.1rem;
-    font-weight: 400;
-    line-height: 130%;
-    margin-left: 15%;
-}
-
-.comments_list div {
-    max-width: 26%;
-    height: auto;
-}
-
-.photo_comments {
-    width: 30%;
-}
-
-.photo_lessons_comments img {
-    max-width: 100%;
-    height: auto;
-}
-
-.commentheader {
-    font-size: 1.55rem;
-    font-weight: 700;
-    margin-bottom: 0;
-}
-
-/* section lessonsform */
-
-.lessonsform_content {
-    margin-left: 37px;
-}
-
-.lessons_form_descrip {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-top: 89px;
-    margin-bottom: 179px;
-    font-size: 1.1rem;
-    font-weight: 400;
-    max-width: 76%;
-    line-height: 130%;
-}
-
-.formheader {
-    color: #1E4681;
-    font-size: 1.55rem;
-    font-weight: 700;
-}
-
-.lessons_form_descrip div {
-    max-width: 27%;
-    height: auto;
-}
-
-/* section knowledge */
-
-.knowledge_content {
-    margin-left: 37px;
-}
-
-#knowledge ul{
-    font-family: Roboto;
-    font-size: 1.5rem;
-    line-height: 150%;
-    margin-bottom: 248px;
-    padding-left: 20px;
-    box-sizing: border-box;
-    max-width: 52.97%;
-}
-
-/* section programcourse */
-
-.programcourse_content h2 {
-    margin-left: 37px;
-}
-
-.rects{
-    margin-top: 132px;
-    margin-bottom: 121px;
-}
-
-.item{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 41px;
-    width: 100%;
-}
-
-.item:last-child{
-    width: 66%;
-    justify-content: space-between;
-}
-
-.item:last-child .square{
-    width: 47.78%;
-}
-
-.square{
-    background: #FFFFFF;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-    width: 31.39%;
-}
-
-.square img{
-    width: 100%;
-    height: auto;
-}
-
-.square h3{
-    margin: 11px 0 32px 20px;
-    font-family: Roboto;
+.marathon_header h3 {
+    margin: 0 auto;
+    display: block;
+    width: 380px;
+    height: 32px;
+    font-family: Bebas Neue;
     font-weight: bold;
-    font-size: 1.87rem;
-    line-height: 130%;
+    font-size: 28px;
+    line-height: 115%;
+    letter-spacing: 0.025em;
+    color: #000000;
+    background-color: #FDE509;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 38px;
 }
 
-.square p{
-    margin: 0 0 23px 19px;
-    font-family: Roboto;
-    font-size: 1.56rem;
-    line-height: 130%;
+.marathon_days {
+    display: flex;
+    justify-content: space-between;
 }
 
-.item:last-child .square:last-child h3{
-    margin: 16px 0 8px 20px;
-    line-height: 97%;
+.marathon_days h4 {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    color: #353535;
 }
 
-/* section recall */
-
-#recall {
-    background-color: #EFEFEF;
+.marathon_days p {
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #323232;
 }
 
-.recall_content {
-    height: 780px;
-    max-width: 1280px;
-    margin: auto; 
-}
-.elements_rec {
-    padding-left: 37px;
+.marathon__program_day {
+    max-width: 362px;
+    max-height: 562px;
+    border: 2px solid #FD6108;
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding-left: 34px;
+    padding-right: 54px;
 }
 
-.elements_rec h2 {
+.marathon__program_day h3 {
+    font-family: Bebas Neue;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 115%;
+    letter-spacing: 0.025em;
+    color: #000000;
+    margin-bottom: 9px;
+}
+
+.marathon_date {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FD6A0A;
+    margin-bottom: 15px;
+}
+
+/* section registration__form */
+
+.page_footer {
+    background: url("./photo/bg-footer.png") no-repeat;
+}
+
+.registration__form_content {
+    display: flex;
+    padding-top: 144px;
+    padding-bottom: 70px;
+    justify-content: center;
+}
+
+.registration__form_description {
+    width: 540px;
+}
+
+.registration_header h3 {
     margin: 0;
-    padding-top: 91px;
-    padding-bottom: 63px;
+    font-family: Bebas Neue;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 115%;
+    color: #000000;
+    display: block;
+    width: 288px;
+    height: 32px;
+    background-color: #FDE509;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.recall_info {
-    max-width: 68%;
-    max-height: 58%;
-    background-color: white;
-    border-radius: 30px;
-    margin-left: 0.4%;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-}
-
-.recall_info div:first-child {
-    max-width: 88.4%;
-    max-height: 45%;
-    padding: 5% 6% 0 6%;
-    font-size: 1.25rem;
-    line-height: 150%;
-}
-
-.recall_info p {
+.registration_header p {
     margin: 0;
+    font-family: Bebas Neue;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 115%;
+    color: #000000;
+    margin-bottom: 22px;
 }
 
-.avatar {
+.registration_date, .registration_online {
     display: flex;
     align-items: center;
-    font-size: 1.87rem;
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    line-height: 101.38%;
-    max-width: 72.4%;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    color: #000000;
+    margin-bottom: 24px;
 }
 
-.avatar div:first-child {
-    width: 33%;
-    margin-bottom: 29px;
-    padding-left: 5%;
+.timer {
+    font-family: Bebas Neue;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 115%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #545454;
+    margin-top: 65px;
 }
 
-.avatar div img {
-    max-width: 100%;
-    height: auto;
+.registration__form_input {
+    width: 600px;
+    height: 523px;
+    background: #FE810F;
+    border-radius: 25px;
+    display: block;
+    text-align: center;
 }
 
-.avatar div p {
-    margin-top: 5px;
-    margin-bottom: 30px;
+.registration__form_fields {
+    margin-left: 127px;
+    margin-top: 127px;
 }
 
-.avatar div:last-child img {
-    width: 10%;
+.decor__input {
+    width: 338px;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.87);
+    border-radius: 8px;
+    border: none;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    color: #827E7E;
+    display: block;
+    margin-bottom: 12px;
+    padding-left: 23px;
 }
 
-/* section shedule */
-
-#shedule {
-    background-color: #9DC9C8;
+.booking_button {
+    width: 335px;
+    height: 75px;
+    background: linear-gradient(90deg, #5800E8 0%, #7D2DFF 98.44%);
+    border-radius: 60px;
+    border: none;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 18px;
+    margin-bottom: 26px;
+    cursor: pointer;
 }
 
-.shedule_content {
-    max-width: 1280px;
-    height: 780px;
-    margin: auto; 
-}
-
-.elements_sched {
-    padding-left: 37px;
-}
-
-.elements_sched h2{
-    margin: 0;
-    padding-top: 179px;
-    padding-bottom: 54px;
-}
-
-.name {
-    font-size: 1.6rem;
-    margin-bottom: 0;
-}
-
-.price {
-    font-size: 5rem;
-    margin-top: 0;
-    height: auto;
-}
-
-.shedule_description {
-    display: flex;
-    justify-content: space-between;
-    max-width: 56%;
-}
-
-.shedule_description div {
-    max-width: 45%;
-    height: auto;
-    font-size: 1.1rem;
-    line-height: 101.38%;
-}
-
-/* section footer */
-
-footer {
-    background-color: black;
-}
-
-.footer_content {
-    max-width: 1280px;
-    height: 390px;
-    margin: auto;
-}
-
-a {
-    text-decoration: none;
-}
-
-.elements_foot p {
-    color: white;
-    margin-top: 0;
-}
-
-.elements_foot {
-    display: flex;
-    justify-content: space-between;
-    max-width: 91%;
-    padding-left: 37px;
-}
-
-.ad_screen_contacts {
-    padding-top: 50px;
-    width: 16.9%;
-}
-
-.logo-sinchro {
-    width: 58%;
-}
-
-.logo-sinchro img {
-    max-width: 100%;
-    height: auto;
-}
-
-.contacts {
-    margin-top: 54px;
-    max-width: 28%;
-}
-
-.number ul {
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.number ul li {
-    font-size: 1.56rem;
-    line-height: 101.38%;
-}
-
-.number ul li:first-child {
-    margin-right: 7%;
-    max-width: 10%;
-}
-
-.number ul img {
-    max-width: 100%;
-    height: auto;
-}
-
-.mail ul {
-   list-style-type: none;
-   display: flex;
-   margin: 0;
-   padding: 0;
-}
-
-.mail ul li {
-    font-size: 1.56rem;
-    line-height: 101.38%;
-}
-
-.mail ul li:first-child {
-    margin-right: 7%;
-    min-width: 10%;
-}
-
-.mail ul img {
-    max-width: 100%;
-    height: auto;
-}
-
-.messengers {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-}
-
-.messengers div {
-    width: 17.6%;
-}
-
-.messengers div img {
-    max-width: 100%;
-    height: auto;
-}
-
-.signature {
-    color: white;
-    font-size: 1.12rem;
-    line-height: 101.38%;
-    margin-top: 140px;
-    padding-left: 37px;
+.check {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 115%;
+    color: #545454;
 }
 
 /* @media tablet */
