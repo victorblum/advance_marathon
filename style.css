@@ -351,7 +351,7 @@ body {
 }
 @media (max-width:767px) {
     .marathon_header h3 {
-        font-size: 32px;
+        font-size: 30px;
         width: 280px;
     }
 }
@@ -478,7 +478,7 @@ body {
 @media (max-width:767px) {
     .registration_header h3 {
         font-size: 36px;
-        width: 215px;
+        width: 220px;
         margin: 0px 20px;
     }
 }
