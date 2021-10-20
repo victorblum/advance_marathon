@@ -240,7 +240,7 @@ body {
 }
 @media (max-width:767px) {
     .pages__photo_block img{
-        width: 116px;
+        width: 95%;
         height: 87px;
         top: 24px;
         right: 1px;
@@ -297,6 +297,11 @@ body {
     margin: 0;
     padding: 0;
 }
+@media (max-width:767px) {
+    .pages__describe_block_info p {
+        font-size: 18px;
+    }
+}
 
 .speaker {
     position: relative;
@@ -313,7 +318,7 @@ body {
 @media (max-width:767px) {
     .speaker {
         bottom: 190px;
-        left: 105px;
+        left: 80px;
         width: 0px;
         height: 0px;
         width: 288px;
@@ -346,8 +351,8 @@ body {
 }
 @media (max-width:767px) {
     .marathon_header h3 {
-        font-size: 36px;
-        width: 69%;
+        font-size: 32px;
+        width: 270px;
     }
 }
 
@@ -393,6 +398,8 @@ body {
         height: 607px;
         margin: 0px 20px;
         margin-bottom: 40px;
+        padding-left: 30px;
+        padding-right: 50px;
     }
 }
 
@@ -471,7 +478,7 @@ body {
 @media (max-width:767px) {
     .registration_header h3 {
         font-size: 36px;
-        width: 49%;
+        width: 210px;
         margin: 0px 20px;
     }
 }
@@ -550,6 +557,7 @@ body {
 @media (max-width:767px) {
     .registration__form_fields {
         margin-left: 14%;
+        margin-top: 27px;
         padding-top: 45px;
     }
 }
