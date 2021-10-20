@@ -447,7 +447,7 @@ body {
 @media (max-width:767px) {
     .registration__form_content {
         display: block;
-        padding-top: 104px;
+        padding-top: 70px;
         padding-bottom: 32px;
     }
 }
@@ -526,6 +526,7 @@ body {
     text-align: center;
     letter-spacing: 0.05em;
     color: #545454;
+    margin-bottom: 5px;
     margin-top: 65px;
 }
 @media (max-width:767px) {
@@ -557,7 +558,7 @@ body {
 @media (max-width:767px) {
     .registration__form_fields {
         margin-left: 14%;
-        margin-top: 0px;
+        margin-top: 5px;
         padding-top: 45px;
     }
 }
