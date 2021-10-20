@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-/* фон двигать вверху и внизу
-задать корректно размер 425 без прокрутки 
-галочку редактировать*/
-
 body {
     font-family: 'Ubuntu', sans-serif;
     background: url("./photo/bg\ el.png") no-repeat;
@@ -478,7 +474,7 @@ body {
 @media (max-width:767px) {
     .registration_header h3 {
         font-size: 36px;
-        width: 220px;
+        width: 230px;
         margin: 0px 20px;
     }
 }
@@ -533,6 +529,11 @@ body {
     .timer {
         margin-top: 30px;
     }
+}
+
+.timer_on {
+    min-width: 300px; 
+    height: 83px;
 }
 
 .registration__form_input {
