@@ -533,6 +533,10 @@ body {
     }
 }
 
+.timer_on {
+    min-width: 450px; 
+    height: 120px;
+}
 @media (max-width:767px) {
     .timer_on {
         min-width: 300px; 
