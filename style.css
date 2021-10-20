@@ -5,7 +5,7 @@ body {
     background: url("./photo/bg\ el.png") no-repeat;
     margin: 0px auto;
 }
-@media (max-width:480px) {
+@media (max-width: 767px) {
     body {
         background: url("./photo/bg\ el2.png") no-repeat;
     }
@@ -31,20 +31,17 @@ body {
 @media (max-width:1146px) {
     .header__content, .main__content, .registration__form{
         max-width: 970px;
-        /* padding: 0px 40px; */
     }
 }
 @media (max-width:992px) {
     .header__content, .main__content, .registration__form{
         max-width: 750px;
-        /* padding: 0px 40px; */
     }
 }
 @media (max-width:767px) {
     .header__content, .main__content, .registration__form{
         max-width: none;
         width: 100%;
-        /* padding: 0px 40px; */
     }
 }
 
