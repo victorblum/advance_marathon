@@ -258,12 +258,6 @@ body {
     }
 }
 
-.pages__describe_block img {
-    position: absolute;
-    top: -3px;
-    right: -5px;
-}
-
 .pages__describe_block p {
     font-weight: bold;
     font-size: 16px;
@@ -349,7 +343,7 @@ body {
 }
 @media (max-width:767px) {
     .marathon_header h3 {
-        font-size: 30px;
+        font-size: 40px;
         width: 280px;
     }
 }
@@ -476,7 +470,7 @@ body {
 @media (max-width:767px) {
     .registration_header h3 {
         font-size: 36px;
-        width: 230px;
+        width: 160px;
         margin: 0px 20px;
     }
 }
